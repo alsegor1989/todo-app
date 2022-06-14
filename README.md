@@ -1,5 +1,7 @@
 # A React ToDo app
 
+![2022-06-14_163410](https://user-images.githubusercontent.com/98969952/173590055-c75728ca-a927-442d-82c0-e8511f7bc60b.png)
+
 Example ToDo app with LocalStorage.
 
 ## Available Scripts

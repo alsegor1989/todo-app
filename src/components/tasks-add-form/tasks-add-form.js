@@ -17,6 +17,7 @@ const TasksAddForm = (props) => {
       return;
     }
     props.onTaskAdd(newTask);
+    setNewTask("");
   };
 
   return (

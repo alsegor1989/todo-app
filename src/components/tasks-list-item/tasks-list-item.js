@@ -8,12 +8,19 @@ const TasksListItem = (props) => {
   return (
     <li className={classNames}>
       <span className="wrapper">
-        <span className="circle" onClick={onToggleProp} data-toggle="completed">
-          {completed ? <span className="checked"></span> : null}
+        <span
+          className="circle"
+          onClick={onToggleProp}
+          data-toggle="completed"
+          data-testid="btn-check"
+        >
+          {completed ? (
+            <span className="checked" data-testid="checked-elem"></span>
+          ) : null}
         </span>
         <h3 className={completed ? `completed` : ""}>{task}</h3>
       </span>
-      <span className="remove" onClick={onDelete}>
+      <span className="remove" onClick={onDelete} data-testid="btn-remove">
         &times;
       </span>
     </li>

@@ -30,6 +30,7 @@ const TasksAddForm = (props) => {
           name="task"
           value={newTask}
           onChange={onValueChange}
+          data-testid="input"
         />
       </form>
     </div>

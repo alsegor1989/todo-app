@@ -29,6 +29,7 @@ const TasksFilter = (props) => {
       <button
         className="btn btn-outline-light"
         onClick={props.onClearCompleted}
+        data-testid="btn-clear-completed"
       >
         {"Clear completed"}
       </button>
